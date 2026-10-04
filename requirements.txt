@@ -1,0 +1,9 @@
+project dependencies
+
+OpenCV       → camera/video processing
+Streamlit    → dashboard
+YOLO         → AI object detection
+NumPy        → calculations
+Pandas       → data handling
+pyttsx3      → voice alert
+Pillow       - working with images.
