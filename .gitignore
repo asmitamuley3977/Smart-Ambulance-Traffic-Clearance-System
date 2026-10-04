@@ -1,0 +1,30 @@
+venv/
+__pycache__/
+*.pyc
+
+.env
+
+runs/
+
+*.mp4
+*.avi
+*.mov
+
+models/*.pt
+
+dataset/images/
+dataset/labels/
+
+
+
+| Entry             | Purpose                       |
+| ----------------- | ----------------------------- |
+| `venv/`           | Python virtual environment    |
+| `__pycache__/`    | Temporary Python files        |
+| `*.pyc`           | Compiled Python files         |
+| `.env`            | Private configuration/secrets |
+| `runs/`           | YOLO training/output files    |
+| `*.mp4`           | Video files                   |
+| `*.pt`            | Trained AI model files        |
+| `dataset/images/` | Large image dataset           |
+| `dataset/labels/` | Dataset labels                |
